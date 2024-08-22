@@ -1,59 +1,34 @@
-@@ -1,6 +1,12 @@
-<html lang="pt-BR">
 
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+Número da linha do arquivo original	Número da linha de comparação	Mudança de linha de comparação
+@@ -7,11 +7,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+        rel="folha de estilo">
     <title>Aluraflix</title>
-</head>
+    <title>Guiminamflix</title>
+</cabeça>
 
-@@ -9,7 +15,7 @@
+<corpo>
+    <cabeçalho>ALURAFLIX</cabeçalho>
+    <cabeçalho>GUIMINAMFLIX</cabeçalho>
 
-    <section>
+    <section class="chamada">
         <div class="chamada-texto">
-            <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
             <h1>ATRAVÉS DO ARANHAVERSO</h1>
             <p>#homem-aranha</p>
-        </div>
-
-  19 changes: 14 additions & 5 deletions19  
-styles.css
-Original file line number	Diff line number	Diff line change
-@@ -2,6 +2,7 @@ body {
-    color: white;
-    background: black;
-    margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
-}
-
-header {
-@@ -12,13 +13,21 @@ header {
-}
-
-section {
-	background: rgb(184,156,213);
-	padding-bottom: 80px;
-	padding-top: 80px;
-	display: flex;
-	justify-content: center;
-    background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.chamada-texto {
-    margin-right: 5%;
-}
-
-h1 {
-    font-size: 40px;
-}
-
-p {
-    font-size: 20px;
+        </Div>
+        <Div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
+                title="Reprodutor de vídeo do YouTube" frameborder="0"
+                allow="acelerômetro; reprodução automática; gravação da área de transferência; mídia criptografada; giroscópio; imagem em imagem; compartilhamento na web"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </Div>
+    </secção>
+    <section class="categoria">
+        <h2>Filmes e séries</h2>
+        <div class="categoria-videos">
+            <a href="https://www.youtube.com/watch?v=cs15QqG6Gjc">
+                <img src="https://img.youtube.com/vi/cs15QqG6Gjc/maxresdefault.jpg" />
+            </um>
+            <a href="https://www.youtube.com/watch?v=nCmIwcycUJ8">
+                <img src="https://img.youtube.com/vi/nCmIwcycUJ8/maxresdefault.jpg" />
